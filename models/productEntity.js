@@ -22,7 +22,7 @@ const {
             allowNull:false,
           },
           shortDescription:{
-            type: DataTypes.STRING(255),
+            type: DataTypes.STRING(355),
             allowNull:false,
           },
 
