@@ -37,7 +37,7 @@ const {
           },
 
           price:{
-            type: DataTypes.BIGINT(6).UNSIGNED,
+            type: DataTypes.FLOAT,
             allowNull: false,
           },
 
