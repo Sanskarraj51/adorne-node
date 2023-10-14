@@ -17,6 +17,7 @@ const db = {};
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
+
 /* These are the model of database  */
 db.UserEntity = require('./userEntity')(sequelize , DataTypes)
 db.UserAddressEntity = require('./userAddressEntity')(sequelize , DataTypes)
